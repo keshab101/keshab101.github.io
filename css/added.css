@@ -217,7 +217,6 @@ abbr.percent {
 .bar:nth-child(7) span:before{ 
     width: 50%;
 }
-
 .bar2:nth-child(1) span:before{
     width: 90%;
 }
@@ -335,12 +334,12 @@ abbr.percent {
 @media (max-width: 500px) {
     .software-skills-bar{
         position: relative;
-        margin-left: 50px;
+        margin-left: 20px;
         
     }
     .programming-skills {
         position: relative;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 50px;
         margin-right: 20px;
     } 
@@ -359,30 +358,39 @@ abbr.percent {
         margin-bottom: 15px;
         margin-right: 10px;
         margin-left: 15px;
+        margin-top: 20px;
         padding-right: 20px;
+
     }
     .right-side h2{
         text-align: center;
         font-size: 26px;
     }
     .social-links2{
-        margin-left: 90px;
+        margin-left: 100px;
         padding-bottom: 20px;
     }
     
     .profile-info {
+        margin: 0px;
         width: 100%;
     }
     
     .profile-header {
+        float: none;
+        position: relative;
+        min-width: 500px;
         width: 100%;
+        margin: 0px;
+        padding-right: 0px;
     }
     .profile-header h1 {
         text-align: center;
     }
     
     .profile-pic{
-        width: 100%;
+        float: none;
+        margin-bottom: 0px;
     }
 }
 
