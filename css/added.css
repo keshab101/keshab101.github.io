@@ -359,7 +359,7 @@ abbr.percent {
         margin-right: 10px;
         margin-left: 15px;
         margin-top: 20px;
-        padding-right: 20px;
+        padding-right: 50px;
 
     }
     .right-side h2{
@@ -372,6 +372,7 @@ abbr.percent {
     }
     
     .profile-info {
+        display: block;
         margin: 0px;
         width: 100%;
     }
@@ -379,18 +380,24 @@ abbr.percent {
     .profile-header {
         float: none;
         position: relative;
-        min-width: 500px;
-        width: 100%;
+        min-width: 100%;
         margin: 0px;
         padding-right: 0px;
     }
     .profile-header h1 {
-        text-align: center;
+        font-size: 18px;
     }
     
     .profile-pic{
-        float: none;
+        width: 100%;
         margin-bottom: 0px;
+    }
+    ul.my-info li{
+        font-size: 12px;
+    }
+    ul.my-info li ul.name-info li:nth-child(1){
+        width: 30%;
+        font-size: 12px;
     }
 }
 
