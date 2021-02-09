@@ -304,12 +304,15 @@ abbr.percent {
     }
     
     .profile-info {
+        position: relative;
         padding-top: 100px;
         margin-top: 20px;
         
     }
     .profile-header {
         float: none;
+        display: inline-block;
+        padding: 0px;
          
     }
     .profile-pic{
@@ -346,27 +349,41 @@ abbr.percent {
     }
     
     .left-side{
-        width: 400px;
-        margin-left: 50px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-top: 5px;
-        padding-top: 10px;
-        
-        
     }
     .right-side{
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 15px;
+        margin-right: 10px;
+        margin-left: 15px;
+        padding-right: 20px;
     }
     .right-side h2{
-        font-size: 22px;
-        margin-top: -10px;
+        text-align: center;
+        font-size: 26px;
     }
     .social-links2{
-        margin-left: 100px;
+        margin-left: 90px;
         padding-bottom: 20px;
     }
     
+    .profile-info {
+        width: 100%;
+    }
     
+    .profile-header {
+        width: 100%;
+    }
+    .profile-header h1 {
+        text-align: center;
+    }
+    
+    .profile-pic{
+        width: 100%;
+    }
 }
 
 
