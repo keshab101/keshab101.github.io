@@ -203,13 +203,13 @@ abbr.percent {
     width: 80%;
 }
 .bar:nth-child(3) span:before{ 
-    width: 80%;
-}
-.bar:nth-child(4) span:before{ 
     width: 70%;
 }
+.bar:nth-child(4) span:before{ 
+    width: 80%;
+}
 .bar:nth-child(5) span:before{ 
-    width: 90%;
+    width: 80%;
 }
 .bar:nth-child(6) span:before{ 
     width: 70%;
@@ -222,25 +222,22 @@ abbr.percent {
 }
 
 .bar2:nth-child(1) span:before{
-    width: 90%;
+    width: 85%;
 }
 .bar2:nth-child(3) span:before{ 
     width: 75%;
 }
 .bar2:nth-child(4) span:before{ 
-    width: 92%;
+    width: 75%;
 }
 .bar2:nth-child(5) span:before{ 
     width: 75%;
 }
 .bar2:nth-child(6) span:before{ 
-    width: 78%;
+    width: 80%;
 }
 .bar2:nth-child(7) span:before{ 
-    width:75%;
-}
-.bar2:nth-child(8) span:before{ 
-    width: 60%;
+    width:80%;
 }
 
 @media (max-width: 1200px) { 
